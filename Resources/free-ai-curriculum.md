@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# please provide me with the markdown file
 
 ```markdown
 # 16-Week Free AI & Agent-Building Curriculum
@@ -24,6 +21,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Print/log the results to a file.
 - Deliverable: Python file with README for setup.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] Setup a virtual environment
+- [ ] Use requests to get api data
+- [ ] Print/log the results to a file.
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
+
 ---
 
 ## Week 2: Data Wrangling Foundations
@@ -40,6 +56,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Apply basic cleaning (drop NAs, fix types).
   - Use matplotlib to plot.
 - Deliverable: Jupyter notebook with code and histogram.
+
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
 
 ---
 
@@ -58,6 +93,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Test with curl/Postman.
 - Deliverable: GitHub project with API repo and setup steps.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
+
 ---
 
 ## Weeks 4–5: Relational Databases & SQL
@@ -75,6 +129,24 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Use pandas to analyze and plot.
 - Deliverable: Notebook with queries, plots, and sample outputs.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
 ---
 
 ## Week 6: Data Visualization
@@ -92,6 +164,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Deploy with Streamlit.
 - Deliverable: Live dashboard link (or screenshots) and code.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
+
 ---
 
 ## Weeks 7–8: Classical ML Toolkit
@@ -107,6 +198,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Use scikit-learn’s train/test split.
   - Explore metrics and confusion matrix.
 - Deliverable: Notebook with code, plots, and results.
+
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
 
 ---
 
@@ -125,6 +235,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Document setup and results differences.
 - Deliverable: Two notebooks and a comparison report.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
+
 ---
 
 ## Week 12: Modern LLMs & GPT
@@ -140,6 +269,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Document prompt variations.
   - Analyze strengths/weaknesses ("black box" effects).
 - Deliverable: Notebook of results and reflection.
+
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
 
 ---
 
@@ -157,6 +305,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Use LangChain to build bot logic.
 - Deliverable: Notebook or repo with demo queries.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
+
 ---
 
 ## Week 14: No-Code AI Tools
@@ -172,6 +339,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Choose a no-code tool (LangFlow, CrewAI, n8n).
   - Import docs/setup flow visually.
 - Deliverable: Video/screenshot walkthrough of flow.
+
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
 
 ---
 
@@ -189,6 +375,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Deploy project on MCP.
 - Deliverable: Refactored codebase with AI assist notes.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
+
 ---
 
 ## Week 16: Capstone—Autonomous Business Agent
@@ -204,6 +409,25 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Integrate NLP, DB, and web interface.
   - Add logging, monitor outputs.
 - Deliverable: Live demo (or video/screenshots), deployment guide, post-mortem blog.
+
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] README updated
+
+**Reflection:**
+- What were the main challenges this week?
+- What did I learn
 
 ---
 

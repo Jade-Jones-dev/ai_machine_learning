@@ -14,6 +14,15 @@
 
 **Deliverable:** Python file with README for setup.
 
+**Weeks workflow**
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
 **Checklist**
 - [ ] Setup a virtual environment
 - [ ] Use requests to get api data

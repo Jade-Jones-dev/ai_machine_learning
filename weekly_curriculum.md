@@ -1,19 +1,23 @@
 ```markdown
-# 16-Week Free AI & Agent-Building Curriculum
+# 17-Week AI & Agent-Building Curriculum
 
-All resources are free. This curriculum focuses on building core Python, data, ML, and AI agent skills with accessible projects and clear learning paths. Hyperlinks are live—export to PDF for a fully clickable study guide.
+ This curriculum focuses on building core Python, data, ML, and AI agent skills with accessible projects and clear learning paths. 
 
 ---
 
 ## Week 1: Python Setup & Scripting Basics
 
 **Key Topics & Resources**
-
+- [AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
 - [Google’s Python Class (videos & written)](https://developers.google.com/edu/python)
-- [Codecademy: Learn Python 3 (free version)](https://www.codecademy.com/learn/learn-python-3)
+- [Codecademy: Learn Python 3 (free)](https://www.codecademy.com/learn/learn-python-3)
 - [Python for Everybody (audit free)](https://www.coursera.org/specializations/python)
-- [Ai python for beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
-- [Basic scripting](https://www.youtube.com/watch?v=NZ0laizc4ug)
+- [Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
+- [Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
+- [Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ&t=61s)
+- [GitHub’s Hello World guide](https://docs.github.com/en/get-started/quickstart/hello-world) 
+
+**Project**: Write a Python script that pings a REST endpoint and logs JSON results.
 
 **Project Outline**
 
@@ -23,6 +27,17 @@ All resources are free. This curriculum focuses on building core Python, data, M
   - Use `requests` to GET API data.
   - Print/log the results to a file.
 - Deliverable: Python file with README for setup.
+
+**Checklist**
+- [ ] Virtual environment set up
+- [ ] Installed `requests` package
+- [ ] Script fetches data from [sample API](https://jsonplaceholder.typicode.com/posts)
+- [ ] Results are printed and saved
+- [ ] README with exact setup steps
+
+**Common Issues & Quick Tips**
+- No module error: `pip install <package>`
+- API 403: Add authentication header
 
 **Weeks workflow**
 
@@ -54,7 +69,7 @@ All resources are free. This curriculum focuses on building core Python, data, M
 
 - [NumPy Quickstart (docs)](https://numpy.org/devdocs/user/quickstart.html)
 - [Pandas Official Tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
-- [YouTube: Pandas, NumPy, and Matplotlib for ML](https://www.youtube.com/watch?v=vmEHCJofslg)
+- [YouTube: Pandas, NumPy, and Matplotlib for ML](https://www.youtube.com/watch?v=vmEHCJofslg)(https://www.youtube.com/watch?v=VX6kCjwdNPw)
 
 **Project Outline**
 
@@ -178,6 +193,7 @@ All resources are free. This curriculum focuses on building core Python, data, M
 - [Udemy: Free Data Visualization Courses](https://www.udemy.com/topic/data-visualization/free/)
 - [Noble Desktop Free Tutorials](https://www.nobledesktop.com/learn/data-visualization/free-resources-and-tutorials)
 - [Simplilearn: Data Visualization (SkillUp)](https://www.simplilearn.com/quick-guide-data-visualization-article)
+- [Figma UI Design Basics (YouTube)](https://www.youtube.com/results?search_query=figma+ui+basics) 
 
 **Project Outline**
 
@@ -219,6 +235,9 @@ All resources are free. This curriculum focuses on building core Python, data, M
 - [Scikit-learn Crash Course](https://www.youtube.com/watch?v=0B5eIE_1vpU)
 - [LabEx scikit-learn Tutorials](https://labex.io/tutorials/category/sklearn)
 - [Simplilearn: Free ML Basics (SkillUp)](https://www.simplilearn.com/free-ai-program-skillup)
+  - [Khan Academy: Intro to ML](https://www.khanacademy.org/computing/computer-science/algorithms)
+  - [Overfitting & Regularization](https://towardsdatascience.com/overfitting-and-regularization-6f12dd38b10b)
+
 
 **Project Outline**
 
@@ -333,47 +352,7 @@ All resources are free. This curriculum focuses on building core Python, data, M
 
 ---
 
-## Week 13: RAG, LangChain & Agent Frameworks
-
-**Key Topics & Resources**
-
-- [LangChain Official Docs](https://python.langchain.com/docs/get_started/introduction)
-- [edX: Building AI Apps](https://www.edx.org/learn/machine-learning)
-- [YouTube: Free LangChain Tutorials](https://www.youtube.com/results?search_query=langchain+tutorial)
-
-**Project Outline**
-
-- Objective: Create a retrieval-augmented (RAG) FAQ bot on docs.
-- Steps:
-  - Index docs with free vector DB (FAISS).
-  - Use LangChain to build bot logic.
-- Deliverable: Notebook or repo with demo queries.
-
-**Weeks workflow**
-
-- Monday
-- Tuesday
-- Wednesday
-- Thursday
-- Friday
-- Saturday
-- Sunday
-
-**Checklist**
-
-- [ ]
-- [ ]
-- [ ]
-- [ ] README updated
-
-**Reflection:**
-
-- What were the main challenges this week?
-- What did I learn
-
----
-
-## Week 14: No-Code AI Tools
+## Week 13: No-Code AI Tools
 
 **Key Topics & Resources**
 
@@ -412,6 +391,49 @@ All resources are free. This curriculum focuses on building core Python, data, M
 - What did I learn
 
 ---
+
+## Week 14: RAG, LangChain & Agent Frameworks
+
+**Key Topics & Resources**
+
+- [LangChain Official Docs](https://python.langchain.com/docs/get_started/introduction)
+- [edX: Building AI Apps](https://www.edx.org/learn/machine-learning)
+- [YouTube: Free LangChain Tutorials](https://www.youtube.com/results?search_query=langchain+tutorial)
+- [3 python ai projects for beginners](https://www.youtube.com/watch?v=XZdY15sHUa8)
+
+**Project Outline**
+
+- Objective: Create a retrieval-augmented (RAG) FAQ bot on docs.
+- Steps:
+  - Index docs with free vector DB (FAISS).
+  - Use LangChain to build bot logic.
+- Deliverable: Notebook or repo with demo queries.
+
+**Weeks workflow**
+
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+
+**Checklist**
+
+- [ ]
+- [ ]
+- [ ]
+- [ ] README updated
+
+**Reflection:**
+
+- What were the main challenges this week?
+- What did I learn
+
+---
+
+
 
 ## Week 15: AI Code Editors & MCP
 
@@ -491,6 +513,22 @@ All resources are free. This curriculum focuses on building core Python, data, M
 
 - What were the main challenges this week?
 - What did I learn
+
+---
+
+
+## Optional Week 17: Career & Portfolio Prep 
+
+**Topics**:
+- How to showcase your GitHub projects
+- Writing technical blogs or case studies
+- Resume building and freelancing platforms
+
+**Resources**:
+- [Data Science Portfolio Tips](https://elitedatascience.com/data-science-portfolio)
+- [Awesome GitHub README Templates](https://github.com/kautukkundan/Awesome-Profile-README-templates)
+
+**Project**: Polish your GitHub, create a LinkedIn post, or write a blog post on your capstone.
 
 ---
 

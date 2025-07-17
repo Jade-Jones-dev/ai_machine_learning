@@ -9,13 +9,11 @@
 
 **Key Topics & Resources**
 - [AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
-- [Google’s Python Class (videos & written)](https://developers.google.com/edu/python)
+<!--[Google’s Python Class (videos & written)](https://developers.google.com/edu/python)-->
 - [Codecademy: Learn Python 3 (free)](https://www.codecademy.com/learn/learn-python-3)
 - [Python for Everybody (audit free)](https://www.coursera.org/specializations/python)
 - [Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
 - [Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
-- [Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ&t=61s)
-- [GitHub’s Hello World guide](https://docs.github.com/en/get-started/quickstart/hello-world) 
 
 **Project**: Write a Python script that pings a REST endpoint and logs JSON results.
 
@@ -44,7 +42,8 @@
 - Monday
 - Tuesday started [AiPython for beginners]
 - Wednesday continued [AiPython for beginners]
-- Thursday
+- Thursday continues [AiPython for beginners] tried [Google's Python class] didn't like it way it teaches
+- Friday 
 - Friday
 - Saturday
 - Sunday

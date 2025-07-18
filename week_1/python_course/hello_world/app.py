@@ -152,3 +152,9 @@ else:
 for x in range(4):
     for y in range(3):
         print(f'({x}, {y})')    
+
+# while loops
+count = 0
+while count < 5:
+    print("attempt", count)
+    count += 1          

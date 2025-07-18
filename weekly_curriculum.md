@@ -14,6 +14,7 @@
 - [Python for Everybody (audit free)](https://www.coursera.org/specializations/python)
 - [Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
 - [Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
+- [Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
 • [Python `venv` Primer – Real Python](https://realpython.com/python-virtual-environments-a-primer/) 
 
 **Project**: Write a Python script that pings a REST endpoint and logs JSON results.

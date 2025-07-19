@@ -8,14 +8,14 @@
 ## Week 1: Python Setup & Scripting Basics
 
 **Key Topics & Resources**
-- [AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
+- [ ][AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
 <!--[Google’s Python Class (videos & written)](https://developers.google.com/edu/python)-->
-- [Codecademy: Learn Python 3 (free)](https://www.codecademy.com/learn/learn-python-3)
-- [Python for Everybody (audit free)](https://www.coursera.org/specializations/python)
-- [Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
-- [Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
-- [Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
-• [Python `venv` Primer – Real Python](https://realpython.com/python-virtual-environments-a-primer/) 
+<!--- [ ][Codecademy: Learn Python 3 (free)](https://www.codecademy.com/learn/learn-python-3)-->
+<!--- [ ][Python for Everybody (audit free)](https://www.coursera.org/specializations/python)-->
+- [X][Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
+- [X][Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
+- [ ][Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
+- [X][Python `venv` Primer – Real Python](https://realpython.com/python-virtual-environments-a-primer/) 
 
 **Project**: Write a Python script that pings a REST endpoint and logs JSON results.
 
@@ -28,17 +28,12 @@
   - Print/log the results to a file.
 - Deliverable: Python file with README for setup.
 
-1. Install Python 3.12 and create a project folder.
-2. Create and activate a virtual environment with `python -m venv .venv`.
-3. Write `ping_api.py` that sends a GET request to https://httpbin.org/get and prints the JSON.
-4. Push the script and a one-paragraph README to GitHub.
-
 **Checklist**
-- [ ] Virtual environment set up
-- [ ] Installed `requests` package
-- [ ] Script fetches data from [sample API](https://jsonplaceholder.typicode.com/posts)
-- [ ] Results are printed and saved
-- [ ] README with exact setup steps
+- [X] Virtual environment set up
+- [X] Installed `requests` package
+- [X] Script fetches data from [sample API](https://jsonplaceholder.typicode.com/posts)
+- [X] Results are printed and saved
+- [X] README with exact setup steps
 
 **Common Issues & Quick Tips**
 - No module error: `pip install <package>`
@@ -46,14 +41,12 @@
 
 **Weeks workflow**
 
-- Monday
 - Tuesday started [AiPython for beginners]
 - Wednesday continued [AiPython for beginners]
-- Thursday continues [AiPython for beginners] tried [Google's Python class] didn't like it way it teaches
-- Friday 
-- Friday
-- Saturday
-- Sunday
+- Thursday continued [AiPython for beginners] tried [Google's Python class] didn't like it way it teaches
+- Friday completed [Python full course]
+- Saturday completed [Python scripting project video] and [Python `venv` Primer – Real Python] Built week 1 project finished [AiPython for beginners]
+- Sunday review weeks work and plan following week
 
 **Checklist**
 
@@ -73,9 +66,10 @@
 
 **Key Topics & Resources**
 
-- [NumPy Quickstart (docs)](https://numpy.org/devdocs/user/quickstart.html)
-- [Pandas Official Tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
-- [YouTube: Pandas, NumPy, and Matplotlib for ML](https://www.youtube.com/watch?v=vmEHCJofslg)(https://www.youtube.com/watch?v=VX6kCjwdNPw)
+- [][NumPy Quickstart (docs)](https://numpy.org/devdocs/user/quickstart.html)
+- [][Pandas Official Tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
+- [][YouTube: Pandas, NumPy, and Matplotlib for ML](https://www.youtube.com/watch?v=vmEHCJofslg)(https://www.youtube.com/watch?v=VX6kCjwdNPw)
+- [][Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
 
 **Project Outline**
 

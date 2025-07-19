@@ -3,16 +3,14 @@
 **Project Outline**
 
 - Objective: Write a Python script that pings a REST endpoint and logs JSON results.
-- Steps:
-  - Set up a virtual environment.
-  - Use `requests` to GET API data.
-  - Print/log the results to a file.
-- Deliverable: Python file with README for setup.
 
 1. Install Python 3.12 and create a project folder.
 2. Create and activate a virtual environment with `python -m venv .venv`.
 3. Write `ping_api.py` that sends a GET request to https://httpbin.org/get and prints the JSON.
+  - Use `requests` to GET API data.
+  - Print/log the results to a file.
 4. Push the script and a one-paragraph README to GitHub.
+6. Deliverable: Python file with README for setup.
 
 **Checklist**
 - [ ] Virtual environment set up

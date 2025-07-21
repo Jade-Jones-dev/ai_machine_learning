@@ -8,14 +8,14 @@
 ## Week 1: Python Setup & Scripting Basics
 
 **Key Topics & Resources**
-- [ ][AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
+- [ ] Complete[AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners/)
 <!--[Google’s Python Class (videos & written)](https://developers.google.com/edu/python)-->
 <!--- [ ][Codecademy: Learn Python 3 (free)](https://www.codecademy.com/learn/learn-python-3)-->
 <!--- [ ][Python for Everybody (audit free)](https://www.coursera.org/specializations/python)-->
-- [X][Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
-- [X][Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
-- [ ][Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
-- [X][Python `venv` Primer – Real Python](https://realpython.com/python-virtual-environments-a-primer/) 
+- [X]Complete[Python scripting project video](https://www.youtube.com/watch?v=dQlw1Cdd3pw)
+- [X]Complete[Python full course](https://www.youtube.com/watch?v=K5KVEU3aaeQ)
+- [ ]Start[Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
+- [X]Read[Python `venv` Primer – Real Python](https://realpython.com/python-virtual-environments-a-primer/) 
 
 **Project**: Write a Python script that pings a REST endpoint and logs JSON results.
 
@@ -48,17 +48,18 @@
 - Saturday completed [Python scripting project video] and [Python `venv` Primer – Real Python] Built week 1 project finished [AiPython for beginners]
 - Sunday review weeks work and plan following week
 
-**Checklist**
-
-- [ ] Setup a virtual environment
-- [ ] Use requests to get api data
-- [ ] Print/log the results to a file.
-- [ ] README updated
-
 **Reflection:**
 
-- What were the main challenges this week?
+- What were the main challenges this week? 
+  - Learning a new language. I kept writing things like I would in javascript. I have found a projects course on youtube to help me practice which i have added to the resources.
+  - getting the environment setup correctly. I have added this to project notes to save time in future.
 - What did I learn
+ - That I need to stay focused as there is so much to learn
+ - That i need to ensure that the things I am learning are relevant to what my goal is
+ - how to ping an endpoint
+ - how to save the results to a file
+ - how to set up a virtual environment
+
 
 ---
 
@@ -66,10 +67,11 @@
 
 **Key Topics & Resources**
 
-- [][NumPy Quickstart (docs)](https://numpy.org/devdocs/user/quickstart.html)
-- [][Pandas Official Tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
-- [][YouTube: Pandas, NumPy, and Matplotlib for ML](https://www.youtube.com/watch?v=vmEHCJofslg)(https://www.youtube.com/watch?v=VX6kCjwdNPw)
-- [][Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
+- []Read [NumPy Quickstart (docs)](https://numpy.org/devdocs/user/quickstart.html)
+- []Watch [Pandas Official Tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
+- []Watch [YouTube: Pandas, NumPy, and Matplotlib for ML](https://www.youtube.com/watch?v=vmEHCJofslg)(https://www.youtube.com/watch?v=VX6kCjwdNPw)
+- []Continue [Python projects course](https://www.youtube.com/watch?v=NpmFbWO6HPU)
+- [] Work through [Python docs](https://docs.python.org/3/tutorial/)
 
 **Project Outline**
 
@@ -82,7 +84,7 @@
 
 **Weeks workflow**
 
-- Monday
+- Monday watched [Pandas Official Tutorials] read [NumPy Quickstart docs]
 - Tuesday
 - Wednesday
 - Thursday

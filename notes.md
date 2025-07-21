@@ -11,3 +11,7 @@
 
 -deactivate
 ```
+[anaconda guide](https://www.anaconda.com/docs/tools/working-with-conda/ide-tutorials/vscode)
+[anaconda app](https://anaconda.com/app/)
+[getting started course](https://learning.anaconda.com/courses/get-started-with-anaconda)
+[vs code](https://code.visualstudio.com/docs/python/environments)

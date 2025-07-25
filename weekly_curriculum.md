@@ -85,9 +85,9 @@
 **Weeks workflow**
 
 - Monday watched [Pandas Official Tutorials] read [NumPy Quickstart docs]
-- Tuesday
+- Tuesday worked on other projects
 - Wednesday
-- Thursday
+- Thursday worked on [Python projects course]
 - Friday
 - Saturday
 - Sunday

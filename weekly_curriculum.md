@@ -88,9 +88,9 @@
 - Tuesday worked on other projects
 - Wednesday
 - Thursday worked on [Python projects course]
-- Friday
-- Saturday
-- Sunday
+- Friday worked on [YouTube: Pandas, NumPy, and Matplotlib for ML]
+- Saturday worked on [data analysis project]
+- Sunday completed all week 2 work
 
 **Checklist**
 
@@ -102,7 +102,10 @@
 **Reflection:**
 
 - What were the main challenges this week?
+Getting jupyter notebooks to work correctly
+setting tools up that i needed to use. Nothing seemed to work and I spent a lot of time troubleshooting
 - What did I learn
+I leerned how to build a scraper, and how to use pandas and matplotlib
 
 ---
 

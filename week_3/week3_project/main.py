@@ -24,13 +24,13 @@ def get_stats():
         return{"error" : "data not loaded" }
     
     stats = {
-        "row_count": len(df),
-        "total_income": df["income"].sum(),
-        "average_hourly_rate": round(df["hourly_rate"].mean(), 2),
-        "most_common_project_type": df["project_type"].mode()[0],
-        "unique_clients": df["client"].nunique(),
+        "row_count": int(len(df)),
+        "total_income": float(df["income"].sum()),
+        "average_hourly_rate": round(float(df["hourly_rate"].mean()), 2),
+        "unique_clients": int(df["client"].nunique()),
+        "most_common_project_type": df["project_type"].mode()[0],    
     }
 
-    
+
     return stats
 

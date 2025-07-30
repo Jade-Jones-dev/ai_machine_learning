@@ -1,0 +1,101 @@
+,month,client,project_type,hours_worked,hourly_rate,income
+0,01.01.2024,Janyx,SEO,14,18,252
+1,05.01.2024,Gabvine,Marketing,6,20,120
+2,07.01.2024,Twimm,SEO,4,18,72
+3,07.01.2024,Wikizz,Web Dev,18,30,540
+4,15.01.2024,Meevee,App Dev,11,35,385
+5,03.02.2024,Twinte,Web Dev,2,30,60
+6,12.02.2024,Zoombeat,Design,3,25,75
+7,12.02.2024,Zoomlounge,Marketing,24,20,480
+8,14.02.2024,Skinte,Marketing,22,20,440
+9,16.02.2024,Gigashots,App Dev,19,35,665
+10,17.02.2024,Plambee,Design,9,25,225
+11,24.02.2024,Yotz,Design,22,25,550
+12,27.02.2024,Mycat,App Dev,10,35,350
+13,28.02.2024,Twitterworks,Design,13,25,325
+14,01.03.2024,Skimia,Marketing,4,20,80
+15,02.03.2024,Aimbu,Web Dev,13,30,390
+16,04.03.2024,Eamia,Design,23,25,575
+17,06.03.2024,Kwimbee,Web Dev,10,30,300
+18,13.03.2024,Buzzshare,Marketing,1,20,20
+19,19.03.2024,Oyonder,SEO,7,18,126
+20,22.03.2024,Gabspot,Design,6,25,150
+21,22.03.2024,Thoughtbeat,Marketing,15,20,300
+22,25.03.2024,Demizz,Design,13,25,325
+23,25.03.2024,Gigashots,Marketing,23,20,460
+24,27.03.2024,Realfire,SEO,9,18,162
+25,28.03.2024,Roodel,Web Dev,14,30,420
+26,28.03.2024,Oyonder,App Dev,19,35,665
+27,29.03.2024,Jabbersphere,Design,8,25,200
+28,31.03.2024,Ntags,SEO,12,18,216
+29,03.04.2024,Flipopia,SEO,7,18,126
+30,03.04.2024,Youspan,App Dev,1,35,35
+31,05.04.2024,Linkbridge,Marketing,23,20,460
+32,07.04.2024,Oyoloo,Design,10,25,250
+33,11.04.2024,Kazu,Design,16,25,400
+34,15.04.2024,Vidoo,App Dev,9,35,315
+35,16.04.2024,Realcube,Design,17,25,425
+36,21.04.2024,Bubblebox,Web Dev,14,30,420
+37,22.04.2024,Twinder,Marketing,21,20,420
+38,25.04.2024,Eire,Web Dev,10,30,300
+39,28.04.2024,Brightbean,Marketing,4,20,80
+40,04.05.2024,Flashset,Web Dev,20,30,600
+41,09.05.2024,Rhyloo,Design,4,25,100
+42,11.05.2024,Blogtags,Web Dev,9,30,270
+43,19.05.2024,Wikizz,SEO,7,18,126
+44,20.05.2024,Mydo,SEO,3,18,54
+45,20.05.2024,Abatz,Web Dev,4,30,120
+46,23.05.2024,Thoughtstorm,Design,4,25,100
+47,24.05.2024,Dablist,Web Dev,4,30,120
+48,27.05.2024,Meetz,Marketing,11,20,220
+49,29.05.2024,Mynte,Design,2,25,50
+50,30.05.2024,Linklinks,Marketing,21,20,420
+51,04.06.2024,Babbleopia,SEO,13,18,234
+52,07.06.2024,Thoughtmix,App Dev,4,35,140
+53,16.06.2024,Photospace,Web Dev,6,30,180
+54,27.06.2024,Dynazzy,SEO,11,18,198
+55,28.06.2024,Eimbee,Design,20,25,500
+56,28.06.2024,Eazzy,SEO,11,18,198
+57,29.06.2024,Zava,Design,12,25,300
+58,30.06.2024,Vinder,SEO,1,18,18
+59,01.07.2024,Wordpedia,App Dev,22,35,770
+60,01.07.2024,Dablist,Web Dev,14,30,420
+61,04.07.2024,Tagopia,SEO,4,18,72
+62,09.07.2024,Babblestorm,Marketing,4,20,80
+63,14.07.2024,Edgeclub,Web Dev,22,30,660
+64,22.07.2024,Youtags,Web Dev,11,30,330
+65,24.07.2024,Twitterlist,Marketing,6,20,120
+66,25.07.2024,Topicstorm,Design,10,25,250
+67,26.07.2024,Dazzlesphere,Web Dev,18,30,540
+68,27.07.2024,Photospace,Design,6,25,150
+69,06.08.2024,Devshare,App Dev,20,35,700
+70,09.08.2024,Dynava,App Dev,2,35,70
+71,17.08.2024,Skimia,Marketing,1,20,20
+72,22.08.2024,Yacero,Web Dev,3,30,90
+73,26.08.2024,Devbug,Web Dev,2,30,60
+74,31.08.2024,Meembee,App Dev,21,35,735
+75,08.09.2024,Thoughtsphere,Web Dev,16,30,480
+76,14.09.2024,Dynava,SEO,25,18,450
+77,15.09.2024,Oyoyo,Web Dev,5,30,150
+78,21.09.2024,Skyndu,SEO,7,18,126
+79,21.09.2024,Thoughtworks,Marketing,2,20,40
+80,25.09.2024,Minyx,App Dev,5,35,175
+81,26.09.2024,Meezzy,Web Dev,21,30,630
+82,30.09.2024,Twitterwire,SEO,4,18,72
+83,02.10.2024,Einti,App Dev,2,35,70
+84,07.10.2024,Zoovu,Marketing,11,20,220
+85,08.10.2024,Edgetag,SEO,17,18,306
+86,20.10.2024,Cogilith,Design,6,25,150
+87,31.10.2024,Miboo,Design,20,25,500
+88,01.11.2024,Pixonyx,SEO,3,18,54
+89,08.11.2024,Thoughtstorm,Design,9,25,225
+90,14.11.2024,JumpXS,Design,21,25,525
+91,14.11.2024,Innotype,App Dev,11,35,385
+92,14.11.2024,Katz,Design,23,25,575
+93,19.11.2024,Buzzdog,SEO,10,18,180
+94,25.11.2024,Livefish,Web Dev,5,30,150
+95,27.11.2024,Flipstorm,Web Dev,18,30,540
+96,07.12.2024,Rooxo,SEO,25,18,450
+97,15.12.2024,Jetwire,Design,4,25,100
+98,17.12.2024,Demizz,App Dev,5,35,175
+99,19.12.2024,Yakidoo,Web Dev,20,30,600

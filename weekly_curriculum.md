@@ -129,7 +129,7 @@ I leerned how to build a scraper, and how to use pandas and matplotlib
 **Weeks workflow**
 
 - Monday
-- Tuesday
+- Tuesday - completed [FastAPI tutorial]
 - Wednesday
 - Thursday
 - Friday

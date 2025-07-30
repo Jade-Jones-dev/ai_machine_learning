@@ -6,7 +6,7 @@
 - [x] Fix type casting & NumPy errors
 - [x] Set up `.gitignore`
 - [x] Migrate to `venv` environment
-- [ ] Write a clear `README.md` with setup + usage
+- [x] Write a clear `README.md` with setup + usage
 - [x]Push project to GitHub
 
 ---

@@ -130,7 +130,7 @@ I leerned how to build a scraper, and how to use pandas and matplotlib
 
 - Monday
 - Tuesday - completed [FastAPI tutorial]
-- Wednesday
+- Wednesday - started [week 3 project]
 - Thursday
 - Friday
 - Saturday
@@ -138,15 +138,16 @@ I leerned how to build a scraper, and how to use pandas and matplotlib
 
 **Checklist**
 
-- [ ]
-- [ ]
-- [ ]
-- [ ] README updated
+- [x]Load csv at server startup
+- [x]Built /stats endpoint
+- [x] tested with curl
+- [x] created readme
+- [x] README updated
 
 **Reflection:**
 
-- What were the main challenges this week?
-- What did I learn
+- What were the main challenges this week? computer keeps lagging struggling to use conda moved over to venv
+- What did I learn - i need a new computer 
 
 ---
 

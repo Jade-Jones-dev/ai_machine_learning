@@ -44,7 +44,6 @@ def get_clients():
 
      return {"clients" : clients}
 
-
 # `/projects` – Return a count of each project type
 @app.get('/projects')
 def get_projects():
@@ -62,5 +61,24 @@ def get_projects():
 
     return projects
 
+# `/monthly-income` – Return income totals grouped by month
+@app.get('/monthly-income')
+def get_income():
+    global df
+    if df is None:
+        return{"error": "data not loaded"}
+    
+    df["month_name"] = df["month"].dt.strftime("%B")
 
+    income_by_month = df.groupby("month_name")["income"].sum()
+
+    month_order = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ]
+
+    monthly_income = {month: round(float(income_by_month.get(month, 0)), 2)
+                     for month in month_order if month in income_by_month}
+
+    return monthly_income
 

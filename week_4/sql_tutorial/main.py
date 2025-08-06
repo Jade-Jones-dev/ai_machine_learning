@@ -1,4 +1,4 @@
-#imports
+# imports
 
 import sqlite3
 from icecream import ic as print
@@ -8,6 +8,7 @@ from icecream import ic as print
 # cursor = connection.cursor()
 # cursor.execute()
 # connection.close()
+
 
 # 1 - setup/ initialize database
 def get_connection(db_name):
@@ -36,8 +37,16 @@ def create_table(connection):
         print(e)
 
 
-
 # 3 - add a user to the database
+def insert_user(connection, name:str, age:int, email:str):
+    query = "INSERT INTO users (name, age, email) VALUES(?, ?, ?)"
+    try:
+        with connection:
+            connection.execute(query, (name, age, email))
+        print(f"User: {name} was added to the database")
+    except Exception as e:
+        print(e)
+
 
 # 4 - query all users in the database
 
@@ -45,13 +54,24 @@ def create_table(connection):
 
 # 6 - update an existing user
 
+
 # main function
 def main():
     connection = get_connection("subscribe.db")
 
-    #create the table
-    create_table(connection)
+    try:
+        # create the table
+        create_table(connection)
 
+        start = input("Enter Option (Add, Delete, Update, Search, Add Many): ").lower()
+        if start == "add":
+            name = input("Enter name: ")
+            age = int(input("Enter age: "))
+            email = input("Enter email: ")
+            insert_user(connection, name, age, email)
+
+    finally:
+        connection.close()
 
 
 if __name__ == "__main__":

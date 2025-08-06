@@ -1,0 +1,5 @@
+Hello world I am completing a words per minute typing test.
+This is a random piece of text to test the words per minute typing test.
+The words per minute typing test shows you how many words you can type in a minute.
+There are several pieces of text for you to keep testing and improving your score.
+This project is built in python and helps me to learn different functions so I can use them in my own apps.

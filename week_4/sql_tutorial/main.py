@@ -1,5 +1,9 @@
 #imports
 
+import sqlite3
+from icecream import ic as print
+
+
 
 # 1 - setup/ initialize database
 

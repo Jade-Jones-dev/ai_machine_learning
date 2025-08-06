@@ -26,6 +26,7 @@ def display_text(stdscr, target, current, wpm=0):
             color = curses.color_pair(2)
         stdscr.addstr(0, i, char, color)
 
+
 def load_text():
     with open("test.txt", "r") as f:
         lines = f.readlines()
@@ -83,7 +84,6 @@ def main(stdscr):
 
         if ord(key) == 27:
             break
-
 
 
 wrapper(main)

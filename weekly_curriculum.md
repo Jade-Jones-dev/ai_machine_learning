@@ -170,10 +170,10 @@ I leerned how to build a scraper, and how to use pandas and matplotlib
 
 **Weeks workflow**
 
-- Monday
-- Tuesday
-- Wednesday
-- Thursday
+- Monday worked on [Python projects course]
+- Tuesday worked on [Python projects course]
+- Wednesday worked on [SQL tutorial]
+- Thursday setup for weeks project
 - Friday
 - Saturday
 - Sunday

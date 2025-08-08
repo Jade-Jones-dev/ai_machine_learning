@@ -12,13 +12,21 @@ def download_video(url, save_path):
     except Exception as e:
         print(e)
 
-url = "https://www.youtube.com/watch?v=hmtuvNfytjM"
-save_path = "/Users/jade/Desktop/REPOS/ai_machine_learning/python_projects/youtube"
-
-download_video(url, save_path)
 
 def open_file_dialog():
-    pass
+    folder = filedialog.askdirectory()
+    if folder:
+        print(f"Selected folder: {folder}")
+    return folder
 
-root = tk.Tk()
-root.withdraw()
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.withdraw()
+
+    video_url = input("Please add your youtube url: ")
+    save_dir = open_file_dialog()
+
+    if not save_dir:
+        print("Please select a folder")
+    else:
+        download_video(video_url, save_dir)

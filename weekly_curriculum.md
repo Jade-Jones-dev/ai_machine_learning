@@ -556,3 +556,10 @@ I leerned how to build a scraper, and how to use pandas and matplotlib
 
 _Export or print this Markdown as a PDF for a single, link-enabled study package. Happy building!_
 ```
+/Users/jade/Desktop/REPOS/ai_machine_learning/python_projects/youtube/Sam Altman Shows Me GPT 5... And What's Next.mp4 (644646d)
+
+git rm --cached python_projects/youtube/Sam Altman Shows Me GPT 5... And What's Next.mp4
+
+git rm --cached python_projects/youtube/Sam Altman Shows Me GPT 5... And What's Next.mp4
+git commit -m "Remove large video file"
+git push

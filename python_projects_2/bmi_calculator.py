@@ -10,13 +10,13 @@ def get_bmi(height, weight):
 
 def get_bmi_int(bmi):
     if bmi < 18.5:
-        print("You are classed as underweight")
+        print("Your BMI is classed as underweight")
     elif 18.4 <= bmi < 25:
-        print("You are classed as a healthy weight")
+        print("Your BMI is classed as a healthy weight")
     elif 25 <= bmi < 30:
-        print("You are classed as overweight")
+        print("Your BMI is classed as overweight")
     else:
-        print("You are classed as obese")
+        print("Your BMI is classed as obese")
 
    
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 # BMI calculator
 
+
 def get_bmi(height, weight):
     try:
         height = float(height)
@@ -12,11 +13,11 @@ def get_bmi(height, weight):
         print("Height and weight must be positive values")
         return None
 
-
     bmi = weight / (height * height)
     bmi = round(bmi, 1)
     print(f"Your bmi is {bmi}")
     return bmi
+
 
 def get_bmi_int(bmi):
     if bmi < 18.5:
@@ -28,15 +29,10 @@ def get_bmi_int(bmi):
     else:
         print("Your BMI is classed as obese")
 
-   
+
 if __name__ == "__main__":
     height = input("What is your height in meters (eg 1.75): ")
     weight = input("What is your weight in kg? ")
     bmi = get_bmi(height, weight)
     if bmi is not None:
         get_bmi_int(bmi)
-
-
-
-
-

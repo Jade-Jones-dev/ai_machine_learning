@@ -6,7 +6,7 @@ def calculate_tip(order_value, tip):
     tip_amount = (order_value / 100) * tip
     total_bill = order_value + tip_amount
     print(
-        f"Your tip amount is {tip_amount}. Your total bill including tip is{total_bill}"
+        f"Your tip amount is {tip_amount:.2f}. Your total bill including tip is {total_bill:.2f}"
     )
 
 

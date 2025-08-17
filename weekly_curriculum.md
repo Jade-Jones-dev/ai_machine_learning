@@ -180,15 +180,18 @@ I leerned how to build a scraper, and how to use pandas and matplotlib
 
 **Checklist**
 
-- [ ]
-- [ ]
-- [ ]
-- [ ] README updated
+- [X]Created notebook
+- [X] Imported data
+- [X] cleaned and exported
+- [X]
+- [X] README updated
 
 **Reflection:**
 
 - What were the main challenges this week?
+- Getting my computer to work
 - What did I learn
+_ If i slow down and dont panic evrything is fixable :o)
 
 ---
 

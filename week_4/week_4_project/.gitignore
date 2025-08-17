@@ -34,3 +34,7 @@ venv/
 # Package distributions
 dist/
 build/
+
+*.db
+*.sqlite
+*.sqlite3

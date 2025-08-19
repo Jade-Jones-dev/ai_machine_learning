@@ -22,3 +22,14 @@ st.table(df)
 st.subheader("Metrics")
 st.metric(label="Total Rows", value=len(df))
 st.metric(label="Average Age", value=round(df['Age'].mean(), 1))
+
+st.subheader("JSON and Dictionary")
+sample_dict = {
+    "Name": "Mya Lilley",
+    "Age": 13,
+    "Skills": ["Movie Marathons","Reading", "Smiling", "Being kind", "Sleeping"]
+}
+
+st.json(sample_dict)
+
+st.write("Dictionary view", sample_dict)

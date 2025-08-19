@@ -25,7 +25,7 @@ def greet(name):
 
 st.code(code_example, language="python")
 st.divider()
-st.image(os.path.join(os.getcwd(), "static", "alexa.png"))
+#st.image(os.path.join(os.getcwd(), "static", "alexa.png"))
 
 
 

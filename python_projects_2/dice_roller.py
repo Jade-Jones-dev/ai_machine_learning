@@ -8,3 +8,4 @@ while True:
         print(f'You rolled a {random.randint(1, 6)}')
     else:
         print("Goodbye") 
+        quit()

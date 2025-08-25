@@ -60,7 +60,16 @@ with overview:
                         ORDER BY rating;
         """)
         st.subheader("Ratings distribution")
-        st.bar_chart(rating_dist.set_index("rating")['n'])
+        tab1, tab2, tab3 = st.tabs(["BarChart", "LineChart", "AreaChart"])
+        with tab1:
+            st.write("BarChart")
+            st.bar_chart(rating_dist.set_index("rating")['n'])
+        with tab2:
+            st.write("LineChart")
+            st.line_chart(rating_dist.set_index("rating")['n'])
+        with tab3:
+            st.write("Area Chart")
+            st.area_chart(rating_dist.set_index("rating")['n'])
         
   
 

@@ -45,7 +45,7 @@ with overview:
         UNION ALL
         SELECT 'users', COUNT(*) FROM users
         ORDER BY rows DESC;
-    """
+        """
     )
     c1, c2 = st.columns([1, 2])
     with c1:
@@ -56,11 +56,11 @@ with overview:
         rating_dist = sql(
             f"""
             SELECT "Book-Rating" as rating, COUNT(*) as n
-                        FROM ratings
-                        {explicit}
-                        GROUP BY rating
-                        ORDER BY rating;
-        """
+            FROM ratings
+            {explicit}
+            GROUP BY rating
+            ORDER BY rating;
+            """
         )
         st.subheader("Ratings distribution")
         tab1, tab2, tab3 = st.tabs(["Bar Chart", "Line Chart", "Area Chart"])
@@ -97,18 +97,18 @@ with books:
 
     books_df = sql(
         f"""
-    SELECT b.ISBN,
+        SELECT b.ISBN,
            b."Book-Title" AS title,
            COUNT(*) AS n_ratings,
            AVG(r."Book-Rating") AS avg_rating
-    FROM ratings r
-    JOIN books b ON b.ISBN = r.ISBN
-    {books_explicit}
-    GROUP BY b.ISBN, title
-    HAVING COUNT(*) >= ?
-    ORDER BY n_ratings DESC
-    LIMIT 50;
-""",
+        FROM ratings r
+        JOIN books b ON b.ISBN = r.ISBN
+        {books_explicit}
+        GROUP BY b.ISBN, title
+        HAVING COUNT(*) >= ?
+        ORDER BY n_ratings DESC
+        LIMIT 50;
+        """,
         params=(min_ratings,),
     )
 

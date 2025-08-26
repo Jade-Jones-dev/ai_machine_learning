@@ -81,15 +81,15 @@ with books:
 
     n_books = sql(
         f"""
-    SELECT COUNT(*) AS n_books
-    FROM (
-        SELECT b.ISBN
-        FROM ratings r
-        JOIN books b ON b.ISBN = r.ISBN
-        {books_explicit}
-        GROUP BY b.ISBN
-        HAVING COUNT(*) >= ?
-        ) t;
+         SELECT COUNT(*) AS n_books
+         FROM (
+             SELECT b.ISBN
+             FROM ratings r
+             JOIN books b ON b.ISBN = r.ISBN
+             {books_explicit}
+             GROUP BY b.ISBN
+             HAVING COUNT(*) >= ?
+             ) t;
         """,
         params=(min_ratings,),
     )
@@ -118,3 +118,42 @@ if books_df.empty:
     )
 else:
     st.dataframe(books_df, use_container_width=True, height=500)
+
+with authors:
+    st.subheader("Top authors by average rating")
+    authors_df = sql(
+        f"""
+        SELECT b."Book-Author" AS author,
+               COUNT(*) AS n_ratings,
+               AVG(r."Book-Rating") AS avg_rating
+        FROM ratings r
+        JOIN books b ON b.ISBN = r.ISBN
+        {books_explicit}
+        GROUP BY author
+        HAVING COUNT(*) >= 100
+        ORDER BY avg_rating DESC, n_ratings DESC
+        LIMIT 50;
+    """
+    )
+    st.dataframe(authors_df, use_container_width=True, height=500)
+
+with users:
+    st.subheader("Cohort favourites")
+    users_explicit = 'WHERE r."Book-Rating" > 0'if explicit_only else "WHERE 1=1"
+    cohort_df = sql(f"""
+        SELECT b."Book-Title" AS title,
+               COUNT(*) AS n_ratings,
+               AVG(r."Book-Rating") AS avg_rating
+        FROM ratings r
+        JOIN users u ON u."User-ID" = r."User-ID"
+        JOIN books b ON b.ISBN = r.ISBN
+        {users_explicit}
+          AND u."Age" BETWEEN ? AND ?
+        GROUP BY title
+        HAVING COUNT(*) >= 20
+        ORDER BY avg_rating DESC, n_ratings DESC
+        LIMIT 50;
+    """, params=(cohort_min, cohort_max))
+    st.dataframe(cohort_df, use_container_width=True, height=500)
+
+st.caption("Tip: use the sidebar to toggle explicit-only ratings and adjust thresholds.")

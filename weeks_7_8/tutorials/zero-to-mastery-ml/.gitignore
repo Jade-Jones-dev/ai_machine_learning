@@ -1,0 +1,54 @@
+# env
+ml-env 
+
+# DS_Store
+*.DS_Store
+
+# Jupyter checkpoints
+*.ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files
+*.pkl
+*.joblib
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# macOS metadata
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Environment/IDE
+.env
+.idea/
+*.swp
+
+# OS-level trash
+.Trashes
+.Spotlight-V100
+
+# Python cache
+*.egg-info/
+.eggs/
+
+# Package distributions
+dist/
+build/
+
+*.db
+*.sqlite
+*.sqlite3
